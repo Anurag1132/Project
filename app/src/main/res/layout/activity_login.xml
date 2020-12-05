@@ -8,6 +8,38 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="30dp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
 
+        ></TextView>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmailID"
+        android:hint="EMAIL ID"
+        android:gravity="center"
+        android:layout_marginTop="10dp"></EditText>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="PASSWORD"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"></EditText>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/loginBtn"
+        android:text="LOGIN"
+        ></Button>
 
 </LinearLayout>
